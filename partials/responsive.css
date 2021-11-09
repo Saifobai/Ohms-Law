@@ -1,0 +1,22 @@
+@media only screen and (max-width: 340px){
+
+    body{
+        background-color: rgb(167, 153, 151);
+      
+       margin: 0;
+       padding: 0;
+    }
+
+    .second-container{
+        width: 40%;
+       
+    }
+   
+
+    /* ------ header and title----- */
+    
+    /* ----- end of header and title------- */    
+
+
+    
+}

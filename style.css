@@ -1,0 +1,156 @@
+
+@import url(/partials/__variables.css);
+@import url(/partials/responsive.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.demo{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+   
+}
+
+.container{
+    width: 35%;
+    margin: 30px auto;
+    border: solid;
+
+}
+
+
+
+.head{
+    text-align: center;
+    padding: 10px;
+    background-color: tomato;
+    border-radius:8px ;
+}
+
+.head-title{
+
+    background-color: turquoise;
+    padding: 10px;
+}
+
+/* ------------  body styling ---  */
+
+.second-container{
+
+   
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+}
+
+.input-four,.input-five{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+
+
+.third-container{
+
+    margin: 20px auto;
+
+    border: solid;
+    height: 600px;   
+}
+
+.img-img{
+    width: 100%;
+
+    height: 180px;
+    border: solid;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+#ans{
+  width: 500px;
+  height: 130px;
+    text-align: center;
+    color: rgb(31, 23, 23);
+    font-size: 20px;
+    background-color: greenyellow;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50% , -50%);
+   padding: 20px;
+   border: 5px dashed black;
+   font-weight: bold;
+  
+}
+
+.select-holder{
+    font-size: 18px;
+    
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+.select-holder label{
+    margin: 10px auto;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#sel1,#sel2,#sel3,#sel4,#sel5{
+    background: rgb(243, 234, 234);
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.btn-btn{
+   text-align: center;
+   position: relative;
+}
+.btn-btn button{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn-btn button:hover{
+
+    background-color: white;
+    color: red;
+    transition: all .8s ease;
+  
+}
+
+/* -------------------  media query ----  */
+
+
+
+
+
+
