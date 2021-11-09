@@ -5,7 +5,7 @@ function check(){
         document.getElementById("sel5").disabled=false;
 }    
 
-//http://jsfiddle.net/ozsxj2th/    
+ 
 function change_color1(select) {
     document.getElementById("sel1").style.backgroundColor=select.options[select.selectedIndex].textContent;
 }
@@ -38,7 +38,7 @@ function calculate(){
     document.getElementById("ans").innerHTML="Required resistance is <b>"+num*mul.toString()+" ohms = "+abbrNum(num*mul,2).toString()+" ohms</b>.<br>Considering tolerance values it may vary from "+Math.round(num*mul*(1-tol/100))+" - "+Math.round(num*mul*(1+tol/100))+" ohms.";   
 }
 
-//https://stackoverflow.com/questions/2692323/code-golf-friendly-number-abbreviator
+
 function abbrNum(number, decPlaces) {
     // 2 decimal places => 100, 3 => 1000, etc
     decPlaces = Math.pow(10,decPlaces);
